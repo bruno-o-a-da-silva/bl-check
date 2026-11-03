@@ -1,0 +1,188 @@
+[
+  {
+    "booking": {
+      "ref": "BK00001",
+      "consignee": "Rio Claro Solventes SA",
+      "quantity": 2,
+      "size_type": "45G1",
+      "packages": 704,
+      "hs_headings": [
+        "3824",
+        "3901"
+      ],
+      "si_cutoff": "2026-03-07T18:00:00",
+      "vgm_cutoff": "2026-03-08T18:00:00"
+    },
+    "vgm": [
+      {
+        "container": "QXTU6804996",
+        "cargo_kg": 8849,
+        "packing_kg": 280,
+        "tare_kg": 3900,
+        "declared_kg": 13029
+      },
+      {
+        "container": "QXTU3898538",
+        "cargo_kg": 15685,
+        "packing_kg": 326,
+        "tare_kg": 3900,
+        "declared_kg": 19911
+      }
+    ],
+    "draft": {
+      "consignee": "RIO CLARO SOLVENTES SA",
+      "containers": [
+        {
+          "number": "QXTU6804996",
+          "packages": 215,
+          "gross_kg": 9129
+        },
+        {
+          "number": "QXTU3898538",
+          "packages": 489,
+          "gross_kg": 16011
+        }
+      ],
+      "hs_lines": [
+        {
+          "code": "382410",
+          "packages": 352,
+          "gross_kg": 12570
+        },
+        {
+          "code": "390110",
+          "packages": 352,
+          "gross_kg": 12570
+        }
+      ]
+    }
+  },
+  {
+    "booking": {
+      "ref": "BK00002",
+      "consignee": "Porto Verde Polimeros SA",
+      "quantity": 4,
+      "size_type": "22G1",
+      "packages": 1283,
+      "hs_headings": [
+        "3901"
+      ],
+      "si_cutoff": "2026-03-05T18:00:00",
+      "vgm_cutoff": "2026-03-06T18:00:00"
+    },
+    "vgm": [
+      {
+        "container": "QXTU2930580",
+        "cargo_kg": 10983,
+        "packing_kg": 592,
+        "tare_kg": 2200,
+        "declared_kg": 15803
+      },
+      {
+        "container": "QXTU1673574",
+        "cargo_kg": 20483,
+        "packing_kg": 236,
+        "tare_kg": 2200,
+        "declared_kg": 22919
+      },
+      {
+        "container": "QXTU6479427",
+        "cargo_kg": 18116,
+        "packing_kg": 427,
+        "tare_kg": 2200,
+        "declared_kg": 20743
+      },
+      {
+        "container": "QXTU1386640",
+        "cargo_kg": 8029,
+        "packing_kg": 202,
+        "tare_kg": 2200,
+        "declared_kg": 10431
+      }
+    ],
+    "draft": {
+      "consignee": "PORTO VERDE POLIMEROS SA",
+      "containers": [
+        {
+          "number": "QXTU2930580",
+          "packages": 498,
+          "gross_kg": 11575
+        },
+        {
+          "number": "QXTU1673574",
+          "packages": 242,
+          "gross_kg": 20719
+        },
+        {
+          "number": "QXTU6479427",
+          "packages": 229,
+          "gross_kg": 18543
+        },
+        {
+          "number": "QXTU1386640",
+          "packages": 314,
+          "gross_kg": 8231
+        }
+      ],
+      "hs_lines": [
+        {
+          "code": "390110",
+          "packages": 1283,
+          "gross_kg": 59068
+        }
+      ]
+    }
+  },
+  {
+    "booking": {
+      "ref": "BK00003",
+      "consignee": "Delta Plast Comercio Ltda",
+      "quantity": 2,
+      "size_type": "22G1",
+      "packages": 1041,
+      "hs_headings": [
+        "3907"
+      ],
+      "si_cutoff": "2026-03-06T18:00:00",
+      "vgm_cutoff": "2026-03-07T18:00:00"
+    },
+    "vgm": [
+      {
+        "container": "QXTU5654166",
+        "cargo_kg": 22354,
+        "packing_kg": 547,
+        "tare_kg": 2200,
+        "declared_kg": 25101
+      },
+      {
+        "container": "QXTU2147260",
+        "cargo_kg": 10976,
+        "packing_kg": 553,
+        "tare_kg": 2200,
+        "declared_kg": 13729
+      }
+    ],
+    "draft": {
+      "consignee": "DELTA PLAST COMERCIO LTDA",
+      "containers": [
+        {
+          "number": "QXTU5654161",
+          "packages": 740,
+          "gross_kg": 22901
+        },
+        {
+          "number": "QXTU2147260",
+          "packages": 301,
+          "gross_kg": 11529
+        }
+      ],
+      "hs_lines": [
+        {
+          "code": "390110",
+          "packages": 1041,
+          "gross_kg": 34430
+        }
+      ]
+    }
+  }
+]
