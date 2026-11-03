@@ -1,0 +1,22 @@
+{
+  "max_gross_kg": {"22G1": 30480, "45G1": 32500},
+  "rules": [
+    {"id": "VGM-DIGIT", "check": "check_digit", "document": "vgm", "severity": 3,
+     "params": {"source": "vgm"}},
+    {"id": "BL-DIGIT", "check": "check_digit", "document": "draft", "severity": 3,
+     "params": {"source": "draft"}},
+    {"id": "BOX-SET", "check": "same_containers", "document": "draft", "severity": 3,
+     "params": {}},
+    {"id": "BOX-COUNT", "check": "count_booked", "document": "draft", "severity": 2,
+     "params": {}},
+    {"id": "VGM-SUM", "check": "vgm_sum", "document": "vgm", "severity": 3,
+     "params": {"tolerance_pct": 5}},
+    {"id": "VGM-MAX", "check": "max_gross", "document": "vgm", "severity": 3, "params": {}},
+    {"id": "BL-WEIGHT", "check": "draft_weight", "document": "draft", "severity": 2,
+     "params": {"tolerance_pct": 5}},
+    {"id": "CONSIGNEE", "check": "same_consignee", "document": "draft", "severity": 2,
+     "params": {}},
+    {"id": "PACKAGES", "check": "packages", "document": "draft", "severity": 1, "params": {}},
+    {"id": "HS-LINES", "check": "hs_lines", "document": "draft", "severity": 1, "params": {}}
+  ]
+}

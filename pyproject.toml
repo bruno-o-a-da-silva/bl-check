@@ -5,10 +5,11 @@ description = "Cross-field checks between booking, VGM and B/L draft, ranked by 
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.12"
-dependencies = []
+dependencies = ["pydantic>=2"]
 
 [project.optional-dependencies]
-dev = ["pytest", "pytest-cov", "ruff", "mypy"]
+dev = ["pytest", "pytest-cov", "ruff", "mypy", "fastapi>=0.110", "uvicorn", "httpx"]
+api = ["fastapi>=0.110", "uvicorn"]
 figures = ["matplotlib"]
 
 [build-system]
@@ -17,6 +18,9 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools.package-data]
+bl_check = ["rules.json"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
@@ -33,3 +37,4 @@ select = ["E", "F", "I", "B", "UP", "SIM"]
 [tool.mypy]
 strict = true
 files = ["src"]
+plugins = ["pydantic.mypy"]
